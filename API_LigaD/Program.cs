@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using API_LigaD.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<API_LigaDContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("API_LigaDContext") ?? throw new InvalidOperationException("Connection string 'API_LigaDContext' not found.")));
 
 // Add services to the container.
 
