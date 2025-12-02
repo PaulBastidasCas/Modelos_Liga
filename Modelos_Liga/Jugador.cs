@@ -9,7 +9,7 @@ namespace Modelos_Liga
 {
     public class Jugador
     {
-        [Key] public int Id { get; set; }
+        [Key] public int Id { get; set; } 
         public string Nombre { get; set; }
         public int Numero { get; set; }
 
