@@ -15,5 +15,7 @@ namespace API_LigaD.Data
         }
 
         public DbSet<Modelos_Liga.Torneo> Torneo { get; set; } = default!;
+        public DbSet<Modelos_Liga.Partido> Partido { get; set; } = default!;
+        public DbSet<Modelos_Liga.Detalle> Detalle { get; set; } = default!;
     }
 }
