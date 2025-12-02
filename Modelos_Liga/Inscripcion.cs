@@ -12,11 +12,11 @@ namespace Modelos_Liga
         [Key] public int Id { get; set; }
         public DateTime FechaInscripcion { get; set; }
 
-        // FKs
         public int TorneoId { get; set; }
+        public int EquipoId { get; set; }
+
         public Torneo Torneo { get; set; }
 
-        public int EquipoId { get; set; }
         public Equipo Equipo { get; set; }
     }
 }

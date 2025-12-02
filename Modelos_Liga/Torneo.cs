@@ -15,7 +15,7 @@ namespace Modelos_Liga
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin { get; set; }
 
-        //public List<Inscripcion> Inscripciones { get; set; }
+        public List<Inscripcion> Inscripciones { get; set; }
         public List<Partido> Partidos { get; set; } 
     }
 

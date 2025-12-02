@@ -12,12 +12,10 @@ namespace Modelos_Liga
         [Key] public int Id { get; set; }
         public string Nombre { get; set; }
 
-        //Relaciones
         public List<Jugador> Jugadores { get; set; }
         public List<Inscripcion> Inscripciones { get; set; }
 
-        //Listas para diferenciar equipos (Local/Visitante)
-        public List<Partido> PartidosComoLocar {  get; set; }
+        public List<Partido> PartidosComoLocal {  get; set; }
         public List<Partido> PartidosComoVisitante { get; set; }
     }
 }

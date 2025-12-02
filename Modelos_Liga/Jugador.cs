@@ -13,7 +13,6 @@ namespace Modelos_Liga
         public string Nombre { get; set; }
         public int Numero { get; set; }
 
-        //Fk
         public int EquipoId { get; set; }
         public Equipo Equipo { get; set; }
     }
