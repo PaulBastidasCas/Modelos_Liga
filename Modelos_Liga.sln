@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos_Liga", "Modelos_Liga\Modelos_Liga.csproj", "{E6AC0E2D-9B47-42D5-BF58-7CAF2672CC86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_Liga", "Api_Liga\Api_Liga.csproj", "{BC47ADE3-E0CB-42FF-9E75-E58ACE781324}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_LigaD", "Api_Liga\Api_LigaD.csproj", "{BC47ADE3-E0CB-42FF-9E75-E58ACE781324}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
