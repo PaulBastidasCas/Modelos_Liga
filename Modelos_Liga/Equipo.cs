@@ -7,17 +7,15 @@ using System.Threading.Tasks;
 
 namespace Modelos_Liga
 {
-    public class Torneo
+    public class Equipo
     {
-        public int Id { get; set; }
+        [Key] public int Id { get; set; }
         public string Nombre { get; set; }
-        public string TipoTorneo { get; set; }
-        public DateTime FechaInicio { get; set; }
-        public DateTime FechaFin { get; set; }
 
+        public List<Jugador>? Jugadores { get; set; }
         public List<Inscripcion>? Inscripciones { get; set; }
-        public List<Partido>? Partidos { get; set; }
+
+        public List<Partido>? PartidosComoLocal { get; set; }
+        public List<Partido>? PartidosComoVisitante { get; set; }
     }
-
 }
-

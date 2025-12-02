@@ -13,10 +13,11 @@ namespace Modelos_Liga
         public int Minuto { get; set; }
 
         public int PartidoId { get; set; }
-        public Partido Partido { get; set; }
-
         public int JugadorId { get; set; }
-        //public Jugador Jugador { get; set; }
+
+        public Partido? Partido { get; set; }
+
+        public Jugador? Jugador { get; set; }
     }
 
 }
