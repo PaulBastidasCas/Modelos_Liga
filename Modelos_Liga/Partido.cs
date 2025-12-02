@@ -14,6 +14,7 @@ namespace Modelos_Liga
         public DateTime FechaJuego { get; set; }
         public string Fase { get; set; }
         public bool Programado { get; set; }
+        public string Tipo { get; set; }
 
         public int GolesLocal { get; set; }
         public int GolesVisitante { get; set; }
@@ -24,9 +25,7 @@ namespace Modelos_Liga
 
         public Torneo? Torneo { get; set; }
 
-        public Equipo? EquipoLocal { get; set; }
-
-        public Equipo? EquipoVisitante { get; set; }
+        public Equipo? Equipo { get; set; }
 
         public List<Detalle>? Detalles { get; set; }
     }
