@@ -14,6 +14,6 @@ namespace Modelos_Liga
         public int Numero { get; set; }
 
         public int EquipoId { get; set; }
-        public Equipo Equipo { get; set; }
+        public Equipo? Equipo { get; set; }
     }
 }

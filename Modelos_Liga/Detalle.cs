@@ -15,8 +15,8 @@ namespace Modelos_Liga
         public int PartidoId { get; set; }
         public int JugadorId { get; set; }
 
-        public Partido Partido { get; set; }
+        public Partido? Partido { get; set; }
 
-        public Jugador Jugador { get; set; }
+        public Jugador? Jugador { get; set; }
     }
 }

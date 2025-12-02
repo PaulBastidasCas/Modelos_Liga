@@ -15,8 +15,8 @@ namespace Modelos_Liga
         public int TorneoId { get; set; }
         public int EquipoId { get; set; }
 
-        public Torneo Torneo { get; set; }
+        public Torneo? Torneo { get; set; }
 
-        public Equipo Equipo { get; set; }
+        public Equipo? Equipo { get; set; }
     }
 }

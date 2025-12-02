@@ -20,12 +20,12 @@ namespace Modelos_Liga
         public int EquipoLocalId { get; set; }
         public int EquipoVisitanteId { get; set; }
 
-        public Torneo Torneo { get; set; }
+        public Torneo? Torneo { get; set; }
 
-        public Equipo EquipoLocal { get; set; }
+        public Equipo? EquipoLocal { get; set; }
 
-        public Equipo EquipoVisitante { get; set; }
+        public Equipo? EquipoVisitante { get; set; }
 
-        public List<Detalle> Detalles { get; set; }
+        public List<Detalle>? Detalles { get; set; }
     }
 }
