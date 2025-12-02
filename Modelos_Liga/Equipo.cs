@@ -10,7 +10,7 @@ namespace Modelos_Liga
     public class Equipo
     {
         [Key] public int Id { get; set; }
-        public string Nombre { get; set; }
+        public string Nombre { get; set; } 
 
         //Relaciones
         public List<Jugador> Jugadores { get; set; }
